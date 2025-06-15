@@ -1,0 +1,19 @@
+/* General Styles */
+:root {
+    --primary-color: #008DD5;
+    --secondary-color: #F56476;
+    --text-color: #FFFFFF;
+    --background-color: #373F51;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
