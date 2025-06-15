@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 
 :root {
-    --primary-color: #008DD5;
-    --primary-dark: #0067A3;
-    --secondary-color: #F56476;
-    --secondary-dark: #C13B4B; 
-    --success-color: #4B6858;
-    --success-border: #87bb9f;
-    --danger-color: #D7263D;
-    --text-color: #FFFFFF;
-    --text-secondary: #E0E0E0;
-    --background-color: #373F51;
-    --surface-color: #232836;
-    --progress-bg: #F5647633;
+    --primary-color: #6366f1;
+    --primary-dark: #4f46e5;
+    --secondary-color: #f59e0b;
+    --secondary-dark: #d97706; 
+    --success-color: #10b981;
+    --success-border: #6ee7b7;
+    --danger-color: #ef4444;
+    --text-color: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --background-color: #0f172a;
+    --surface-color: #1e293b;
+    --progress-bg: #f59e0b33;
 }
 
 * {
@@ -74,7 +74,7 @@ h1, h2 {
 
 .infos-quiz {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 1rem;
     color: var(--text-secondary);
@@ -135,13 +135,13 @@ h1, h2 {
 
 .bouton-reponse.correct {
     background: var(--success-color);
-    color: #eafff5;
+    color: #ecfdf5;
     border-color: var(--success-border);
     font-weight: 600;
 }
 .bouton-reponse.incorrect {
     background: var(--danger-color);
-    color: #fff;
+    color: #fef2f2;
     border-color: var(--danger-color);
 }
 

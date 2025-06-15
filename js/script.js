@@ -187,13 +187,13 @@ function afficherResultat() {
     barreProgression.style.width = "100%";
     const pourcentage = (score / questions.length) * 100;
     if (pourcentage === 100) {
-        messageResultat.textContent = "Excellent travail ! Vous avez obtenu un score parfait !";
+        messageResultat.textContent = "🌟 Excellent travail ! Vous avez obtenu un score parfait ! 🎯";
     } else if (pourcentage >= 80) {
-        messageResultat.textContent = "Très bon travail ! Vous avez bien réussi le quiz.";
+        messageResultat.textContent = "👏 Très bon travail ! Vous avez bien réussi le quiz. 🧠";
     } else if (pourcentage >= 50) {
-        messageResultat.textContent = "Bon effort ! Vous avez réussi, mais il y a de la place pour l'amélioration.";
+        messageResultat.textContent = "👍 Bon effort ! Vous avez réussi, mais il y a de la place pour l'amélioration. 📘";
     } else {
-        messageResultat.textContent = "Vous pouvez faire mieux. N'hésitez pas à revoir les concepts.";
+        messageResultat.textContent = "🔁 Vous pouvez faire mieux. N'hésitez pas à revoir les concepts. 💡";
     }
 }
 
